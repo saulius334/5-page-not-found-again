@@ -15,6 +15,8 @@
             float:right;
         }
         li a {
+            font-size: 25px;
+            font-weight: bold;
             display: block;
             color: white;
             text-align: center;
@@ -22,31 +24,50 @@
             text-decoration: none;
         }
         body {
+            margin: 0;
             background-image: url('background-body.jpg');
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-        .text {
-            
+        .topdiv {
+            margin-top: 50px;
+            width: 80%;
+            margin-left: 10%;
+            display: inline-block;
+        }
+        .middiv {
+            font-size: 50px;
+            text-align: center;
+            margin-top: 300px;
+        }
+        .botdiv {
+            margin-top: 310px;
+            width: 80%;
+            margin-left: 10%;
         }
     </style>
 </head>
 <body>
     <main>
-        <div style="display:inline-block; background-color: aqua; width: 100%;">
-            <a href="#">SaulGoodMan</a>
-            <ul> 
+        <div class="topdiv">
+            <ul>
+                <!-- nepatinka BIT dydys-->
+                <li style="float: left;"><a href="#">BIT</a></li>
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="#">PROFILE</a></li>
                 <li><a href="#">WHAT WE DO</a></li>
             </ul>
         </div>
-        <div style="background-color: green; text-align: center; margin-top: 420px;">
+
+        <div class="middiv">
             <h1>Looks like you got lost</h1>
         </div>
-            <div style="margin-top: 300px; box-sizing: border-box;">
-                <span style="text-align:center;display: inline-block;width: 24%;">@ Baltijos Technologiju Institutas 2022</span>
-                <span style="text-align:center;display: inline-block;width: 50%;">00000000009<br> Saulėtekio alėja 17, Vilnius, Lietuva</span>
-                <span style="text-align:center;display: inline-block;width: 25%;">hello@bit.lt</span>
-            </div>
+
+        <div class="botdiv">
+                <span style="display:inline-block;width: 25%; ">@ Baltijos Technologiju Institutas 2022</span>
+                <span style="text-align:center;display: inline-block;width: 50%;">+37059999999<br> Saulėtekio alėja 17, Vilnius, Lietuva<br> All rights not reserved</span>
+                <span style="text-align:right;display: inline-block;width: 24%; padding-right: 5px;"> hello@bit.lt</span>
+        </div>
 
     </main>
 </body>
