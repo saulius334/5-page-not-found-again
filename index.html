@@ -4,71 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>We're sorry!</title>
-    <style>
-        ul {
-            list-style-type: none;
-            margin:0;
-            padding: 0;
-        }
-        li {
-            float:right;
-        }
-        li a {
-            font-size: 25px;
-            font-weight: bold;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 30px;
-            text-decoration: none;
-        }
-        body {
-            margin: 0;
-            background-image: url('background-body.jpg');
-            color: white;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .topdiv {
-            margin-top: 50px;
-            width: 80%;
-            margin-left: 10%;
-            display: inline-block;
-        }
-        .middiv {
-            font-size: 50px;
-            text-align: center;
-            margin-top: 300px;
-        }
-        .botdiv {
-            margin-top: 310px;
-            width: 80%;
-            margin-left: 10%;
-        }
-    </style>
 </head>
 <body>
+<header>
+    <a href="#"><img src="./imgs/BIT_bl-RGB.png" alt="BIT"></a>
+    <nav>
+        <a href="#">What we do</a>
+        <a href="#">Profile</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
     <main>
-        <div class="topdiv">
-            <ul>
-                <!-- nepatinka BIT dydys-->
-                <li style="float: left;"><a href="#">BIT</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">PROFILE</a></li>
-                <li><a href="#">WHAT WE DO</a></li>
-            </ul>
-        </div>
-
-        <div class="middiv">
+        <!--img size height: 360px width:265px-->
+        <img style="float: left;" src="./imgs/jtwtfleft.png" alt="johntravoltaleft">
+            <div>
             <h1>Looks like you got lost</h1>
-        </div>
-
-        <div class="botdiv">
-                <span style="display:inline-block;width: 25%; ">@ Baltijos Technologiju Institutas 2022</span>
-                <span style="text-align:center;display: inline-block;width: 50%;">+37059999999<br> Saulėtekio alėja 17, Vilnius, Lietuva<br> All rights not reserved</span>
-                <span style="text-align:right;display: inline-block;width: 24%; padding-right: 5px;"> hello@bit.lt</span>
-        </div>
-
+                <div>
+                <a href="#">Home</a>
+                <a href="#">Back</a>
+                </div>
+            </div>
+        <!--img size height: 360px width:235px-->
+        <img style="float: right;" src="./imgs/jtwtf.png" alt="johntravoltwt">
     </main>
+
+<footer>
+    <div style="float: left;">
+        <span>@ Baltijos Technologiju Institutas 2022</span>
+    </div>
+
+    <div class="middiv">
+        <span>+37059999999<br> Saulėtekio alėja 17, Vilnius, Lietuva<br>
+         All rights not reserved</span>
+    </div>
+        
+    <div style="float: right;">
+        <span > hello@bit.lt</span>
+    </div>
+</footer>
+   
 </body>
 </html>

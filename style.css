@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #EF5150;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header, main, footer {
+    margin-top: 100px;
+    width: 80%;
+    margin-inline: 10%;
+}
+header nav {
+    float:right;
+    margin-top: 13px;
+}
+header nav a {
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 120px;
+    transition: 0.2s;
+}
+header nav a:hover {
+    color: black;
+}
+main {
+    margin-top: 200px;
+}
+main > div {
+    width: calc(100% - 500px);
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+main div div {
+    margin-top: 50px;
+}
+main div div a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 999px;
+    margin: 50px;
+    padding-block: 20px;
+    padding-inline: 40px;
+    transition: 0.5s;
+}
+main div div a:hover {
+    background-color: white;
+    color: #EF5150;
+}
+h1 {
+    display: inline-block;
+}
+footer {
+    margin-top: 0;
+    display: inline-block;
+}
+footer > div {
+    display: inline-block;
+}
+.middiv {
+    text-align: center;
+
+}
