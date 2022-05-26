@@ -13,7 +13,7 @@ header nav {
     float:right;
     margin-top: 13px;
 }
-header nav a {
+.topmenu {
     font-size: 26px;
     line-height: 26px;
     float: left;
@@ -37,7 +37,7 @@ main > div {
 main div div {
     margin-top: 50px;
 }
-main div div a {
+.button {
     font-size: 20px;
     text-decoration: none;
     color: white;
@@ -48,7 +48,7 @@ main div div a {
     padding-inline: 40px;
     transition: 0.5s;
 }
-main div div a:hover {
+.button:hover {
     background-color: white;
     color: #EF5150;
 }
@@ -64,5 +64,9 @@ footer > div {
 }
 .middiv {
     text-align: center;
-
+    margin-inline: 23%;
+}
+.footer-div-last {
+    float: right;
+    margin-right: 80px;
 }
